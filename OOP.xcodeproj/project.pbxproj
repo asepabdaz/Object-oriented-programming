@@ -12,6 +12,9 @@
 		0E8D5B08228BAF84006AE369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8D5B06228BAF84006AE369 /* Main.storyboard */; };
 		0E8D5B0A228BAF85006AE369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E8D5B09228BAF85006AE369 /* Assets.xcassets */; };
 		0E8D5B0D228BAF85006AE369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E8D5B0B228BAF85006AE369 /* LaunchScreen.storyboard */; };
+		0E8D5B15228BB035006AE369 /* myEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D5B14228BB035006AE369 /* myEntity.swift */; };
+		0E8D5B17228BC4DA006AE369 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D5B16228BC4DA006AE369 /* File.swift */; };
+		0E8D5B19228BCA0F006AE369 /* myRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8D5B18228BCA0F006AE369 /* myRoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		0E8D5B09228BAF85006AE369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E8D5B0C228BAF85006AE369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0E8D5B0E228BAF85006AE369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E8D5B14228BB035006AE369 /* myEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myEntity.swift; sourceTree = "<group>"; };
+		0E8D5B16228BC4DA006AE369 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		0E8D5B18228BCA0F006AE369 /* myRoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myRoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				0E8D5B02228BAF84006AE369 /* AppDelegate.swift */,
 				0E8D5B04228BAF84006AE369 /* ViewController.swift */,
+				0E8D5B18228BCA0F006AE369 /* myRoundedButton.swift */,
+				0E8D5B16228BC4DA006AE369 /* File.swift */,
 				0E8D5B06228BAF84006AE369 /* Main.storyboard */,
 				0E8D5B09228BAF85006AE369 /* Assets.xcassets */,
 				0E8D5B0B228BAF85006AE369 /* LaunchScreen.storyboard */,
 				0E8D5B0E228BAF85006AE369 /* Info.plist */,
+				0E8D5B14228BB035006AE369 /* myEntity.swift */,
 			);
 			path = OOP;
 			sourceTree = "<group>";
@@ -135,6 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E8D5B15228BB035006AE369 /* myEntity.swift in Sources */,
+				0E8D5B17228BC4DA006AE369 /* File.swift in Sources */,
+				0E8D5B19228BCA0F006AE369 /* myRoundedButton.swift in Sources */,
 				0E8D5B05228BAF84006AE369 /* ViewController.swift in Sources */,
 				0E8D5B03228BAF84006AE369 /* AppDelegate.swift in Sources */,
 			);
